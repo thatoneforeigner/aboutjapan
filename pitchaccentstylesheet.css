@@ -1,0 +1,211 @@
+body {
+	background-image: url(https://interacnetwork.com/the-content/cream/wp-content/uploads/2018/11/Japan_005_1500x1000.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	margin:0;
+}
+.split {
+	top:0;
+	transform:translateY(0);
+	overflow-y:hidden;
+	padding: 2px;
+	background-color:white;
+	border: 1px solid black;
+	box-shadow:0px 1px 2px rgba(0, 0, 0, 0.2);
+	margin:0;
+}
+.split-info {
+		border: 1px solid black;
+}
+.nav-bar {
+	padding:2px;
+	background-color: rgba(179, 0, 0, 0.3);
+	transform:translateY(0);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	margin:auto;
+	position:relative
+}
+.sticky {
+	position:sticky;
+	top:0;
+}
+.nav-content {
+	width:fit-content;
+	align-items:center;
+	margin: 0 10px;
+	background-color:white;
+	border-radius:25px;
+	border:1px solid black;
+	display:flex;
+}
+.nav-table {
+	padding:0;
+	margin:0;
+	color:white;
+	font-size:20px;
+	font-family:Arial;
+	background-color:rgba(179, 0, 0, 0.3);
+	text-align:center;
+}
+.top_head-container {
+	padding:30px
+}
+.header-title {
+	font-size:30px ;
+	font-family:Arial ;
+	border: 1px solid gray;
+	text-align: center;
+	background-color: rgba(255,255,255, 0.3);
+}
+.header {
+	font-size: 20px;
+	font-family:Times New Roman;
+	padding: 10px 3px;
+	font-weight: bold;
+}
+.above-header-txt {
+	margin: 10px;
+}
+.kanji {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	opacity:0.5;
+	border: 1px solid black;
+}
+.body-div-container {
+	background-color: #350066;
+	padding: 40px;
+}
+.body-middle-container {
+	background-color: #350066;
+	margin:auto;
+}
+.body-middle {
+	background-color: white;
+	padding: 20px;
+	text-align: left;
+	border-radius:25px;
+}
+.body-lower-div {
+	background-color:rgb(128, 0, 128);
+	padding:40px;
+}
+.body-lower-container {
+	background-color:#FFFFFF;
+	margin:auto;
+}
+.body-lower {
+	background-color:white;
+	padding:12px;
+	text-align:center;
+	border-radius:25px;
+}
+.body-lower-text {
+	text-align:left;
+	font-family:arial;
+	font-size:20px;
+}
+.body-row-one {
+	font-family: helvetica;
+	font-size: 22px;
+	text-align:left;
+}
+.sub-header {
+	font-family: Trebuchet MS;
+	font-size: 32px;
+	color:#8f00b3;
+}
+.margin {
+	margin-top:12px;
+}
+.body-container_bottom {
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin: 12px;
+	border-radius:10px;
+	border: 3px solid black;
+}
+.body-row-two {
+	font-family: helvetica;
+	font-size: 26px;
+}
+.other {
+	font-size: 20px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.nav {
+	margin:15px;
+}
+.lists {
+	font-family:Arial;
+	padding:5px;
+	font-size:19px;
+}
+ul {
+	list-style-type:none;
+}
+.toc {
+	font-size:30px;
+	font-family:Trebuchet;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+}
+.li-header {
+	display:inline;
+	align-items:justify;
+	width:fit-content;
+	margin-inline:86px;
+	padding-inline:10px
+}
+.nav-list {
+	display:inline;
+	margin-inline:18px;
+	margin-left:20px;
+	width: fit-content;
+	padding-inline:0;
+}
+.lists-header {
+	font-size:56px;
+	font-family: Trebuchet MS
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	font-weight:bold;
+	border: 2px black solid;
+	border-radius: 20px;
+	background-color: white;
+}
+.tc-container {
+	border-radius:10px;
+	border: 2px black solid;
+	background-color:white;
+	
+}
+table {
+	border-collapse:collapse;
+	border: 3px solid black;
+	width:100%;
+	margin:auto;
+}
+tr:nth-child(odd) {
+	background-color: white;
+}
+tr:nth-child(even) {
+	background-color: red;
+}
+th, td {
+	border: 1px solid black;
+}
+.table-text {
+	font-size:20px;
+	font-family:arial;
+}
+.inline {
+	display: inline;
+	margin-left:10px;
+	margin-right:10px;
+}
