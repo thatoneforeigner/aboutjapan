@@ -93,14 +93,15 @@ body {
 	padding:40px;
 }
 .body-lower-container {
-	background-color:#FFFFFF;
+	background-color:rgb(128, 0, 128);
 	margin:auto;
 }
 .body-lower {
-	background-color:white;
-	padding:12px;
+	background-color:#FFFFFF;
+	padding:18px;
 	text-align:center;
 	border-radius:25px;
+	color:black;
 }
 .body-lower-text {
 	text-align:left;
@@ -208,4 +209,7 @@ th, td {
 	display: inline;
 	margin-left:10px;
 	margin-right:10px;
+}
+.frameborder {
+	border: none;
 }
